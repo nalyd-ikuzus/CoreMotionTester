@@ -15,7 +15,7 @@ struct StartView: View {
         NavigationView{
             VStack{
                 HStack{
-                    NavigationLink("Start", destination: MotionCircleView())
+                    NavigationLink("Start", destination: MotionCircleView(averageBuffer: [Double]()))
                 }
             }
         }.navigationTitle("Start Page")
